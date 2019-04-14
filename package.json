@@ -1,0 +1,14 @@
+{
+  "name": "juice",
+  "version": "1.0.0",
+  "description": "landing page for  Juice Served Here",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "Mahshid Mianchi",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}

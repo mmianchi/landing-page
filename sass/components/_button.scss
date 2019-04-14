@@ -1,0 +1,19 @@
+.btn-orange {
+
+  &:link,
+  &:visited {
+  padding: 14px 40px;
+  color: $color-orange;
+  display: inline-block;
+  border: 1px solid $color-orange;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all .2s;
+  }
+  &:hover {background-color: $color-orange; color: $color-white;}
+}

@@ -1,0 +1,13 @@
+.cleans {
+  background-image: url('../../img/JuiceServedHere-TanaGandhi-003.png');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 610px;
+  position: relative;
+
+  .p-wrap {
+    max-width: 450px; margin: 2.6rem auto 10rem auto;
+   }
+  h3 { @include oragenLine }
+}

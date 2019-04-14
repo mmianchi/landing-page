@@ -1,0 +1,20 @@
+.locations {
+  h2 { padding-top: 5rem; margin-bottom: 9rem; }
+  .container {
+    text-align: left;
+     @include respond(phone) { text-align: center; }
+    h5 { color: $color-orange; margin-top: 2.7rem; }
+    p {
+      font-size: 1.3rem;
+      letter-spacing: 1.5px;
+      font-weight: 300;
+      margin-top: .5rem;
+      margin-bottom: 0rem;
+      &:last-child { @include respond(phone) { margin-bottom: 3rem; } }
+    }
+  }
+  .btn-orange { 
+    margin-top: 3.7rem; margin-bottom: 65rem;
+    @include respond(phone) { margin-bottom: 8rem; }
+   }
+}

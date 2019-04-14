@@ -1,0 +1,21 @@
+.drinks {
+  .carousel-caption {
+    top: 0; bottom: 0; color: $color-black;
+    .p-wrap { width: 400px; margin: 2rem auto 5rem auto;
+      font-size: 1.35rem; }
+    h3 {@include oragenLine }
+    h2 { padding-top: 5.5rem; }
+  }
+  img { height: 515px; }
+  .carousel-indicators {
+    li {
+      height: 13px;
+      width: 13px;
+      padding: 0;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+    .active { background-color: $color-orange; }
+  }
+}
+

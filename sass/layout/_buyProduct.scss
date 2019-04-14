@@ -1,0 +1,54 @@
+.buyProduct {
+  margin-bottom: 5rem;
+  .p-wrap { max-width: 500px; margin: 4rem auto; }
+  h3 { padding-top: 3rem; }
+  &__stages {
+    margin: 11rem auto 4.5rem auto;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    max-width: 760px;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 85px;
+
+    @include respond(phone) { 
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: 150px;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      grid-row-gap: 30px;        
+    }
+    &__item  { 
+      position: relative; 
+      padding:10px;
+      text-align: left;
+    
+    }
+    &__item p:nth-child(2)::after {
+      display: block;
+      height: 1px;
+      background-color: $color-grey;
+      content: "";
+      width: 17rem;
+      margin-top: 2px;
+    }
+  }
+  .stage__numbers {
+    position: absolute;
+    top: 36%;
+    right: -10%;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    color: $color-orange;
+    font-size: 13rem;
+    font-weight: 650;
+    z-index: -1;
+     @include respond(phone) { opacity: 0.2; top: -3%; right: -48%; }
+  }
+
+  .btn { padding: 14px 30px; }
+  p { margin-bottom: 0; }
+}
+
+

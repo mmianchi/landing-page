@@ -1,0 +1,9 @@
+.pickPoroduct {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  .p-wrap { width: 360px; margin: 2.5rem auto 4rem auto; }
+  h3 { @include oragenLine }
+  h3::before { margin: 5rem auto 2.9rem auto;}
+
+}
+
